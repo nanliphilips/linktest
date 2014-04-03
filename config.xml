@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-  xmlns:gap     = "http://phonegap.com/ns/1.0"
-  id            = "com.philips.linktest"
-  versionCode   = "10"
-  version       = "1.0.0">
-  
-<supports-screens android:anyDensity="true" android:resizable="true"
-  android:smallScreens="true"
-  android:normalScreens="true"
-  android:largeScreens="true"
-  android:xlargeScreens="true" />
+  xmlns:gap   = "http://phonegap.com/ns/1.0"
+  id          = "com.phonegap.example"
+  versionCode = "10"
+  version     = "1.0.0" >
 
-<preference name="phonegap-version" value="1.9.0" />
-<preference name="permissions" value="none" />
+<name>
+LinkTest Philips
+</name>
 
-<name>LinkTest Philips</name>
-<description>Just a Link</description>
-<author e-mail="nan.li@philips.com">Nan Li</author>
+<description>
+Just a Link
+</description>
+
+<author href="https://philips.com/" e-mail="nan.li@philips.com">
+Nan Li
+</author>
 
 </widget>
