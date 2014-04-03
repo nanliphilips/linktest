@@ -1,7 +1,9 @@
+<?xml version=1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
   xmlns:gap     = "http://phonegap.com/ns/1.0"
   xmlns:android = "http://schemas.android.com/apk/res/android"
-  id            = "try.this.out"
+  id            = "com.philips.linktest"
+  versionCode   = "10"
   version       = "1.0.0">
   
 <supports-screens android:anyDensity="true" android:resizable="true"
@@ -9,3 +11,14 @@
   android:normalScreens="true"
   android:largeScreens="true"
   android:xlargeScreens="true" />
+
+<preference name="permissions" value="none"/>
+
+<gap:splash src="nosplash.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="nosplash.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="nosplash.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="nosplash.png" gap:platform="android" gap:density="xhdpi" />
+
+<name>LinkTest Philips</name>
+<description>Just a Link</description>
+</widget>
